@@ -57,7 +57,7 @@ body {
   margin-bottom: 20px;
 }
 .banner img {
-  height: 150px;
+  height: 100px;
 }
 .footer {
   text-align: center;
@@ -111,6 +111,5 @@ body {
     background-color: lightpink;
     width: 200px;
     height: 300px;
-    margin-left: 400px;
     margin-top: 20px;
 }
