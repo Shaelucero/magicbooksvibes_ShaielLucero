@@ -1,76 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <title>Mis Libros</title>
-</head>
-
-<body>
-    <header>
-        <a href="../index.html"><img src="../img/logo_pagina.jpeg" alt="libros" height="1000px"></a>
-        <h1>Welcome to your Dreams</h1>
-        <nav>
-            <ul>
-                <li> <a href="sobre_mi.html">Sobre Mi</a></li>
-                <li> <a href="primeras_experiencias.html">Experiencias</a></li>
-                <li> <a href="mis_libros.html">Mis libros</a></li>
-                <li> <a href="curiosidades_y_galeria.html">Galeria</a></li>
-                <li> <a href="consejos_y_guia.html"> Guias</a></li>
-                <li> <a href="contacto.html">Contacto</a></li>
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/styles.css" />
+        <title>Mis Libros</title>
+      </head>
+      <body>
+        <!-- header -->
+        <header class="header">
+          <!-- logo -->
+          <a class="logo" href="../index.html"
+            ><img src="../img/logo_pagina.jpeg" alt="libros"
+          /></a>
+          <!-- logo -->
+          <h1 class="header-title">Welcome to your Dreams</h1>
+          <nav class="nav">
+            <ul class="nav-menu">
+              <li class="nav-menu_item">
+                <a href="sobre_mi.html">Sobre mi</a>
+              </li>
+              <li class="nav-menu_item">
+                <a href="primeras_experiencias.html">Experiencias</a>
+              </li>
+              <li class="nav-menu_item active">
+                <a href="mis_libros.html">Mis libros</a>
+              </li>
+              <li class="nav-menu_item">
+                <a href="curiosidades_y_galeria.html">Galeria</a>
+              </li>
+              <li class="nav-menu_item">
+                <a href="consejos_y_guia.html">Guias</a>
+              </li>
+              <li class="nav-menu_item">
+                <a href="contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Mis Libros</h2>
-        <section class="grid">
-        <div class="libro"><img src="../img/secretos_del_clan_defazio.jpeg" alt="Secretos del Clan Defazio" width="60rem"></div>
-         <p>El clan Defazio se reúne en la isla de Capri, Italia para intentar superar la muerte de Phoenix Defazio todos
-            juntos.
-            Pero todo lo que comenzó como unas inocentes vacaciones se transforman en una caótica temporada vacacional.
-            Se produce un incendio que provoca la muerte de 2 chicas.</p>
-        <div class="libro1"><img src="../img/libro_1_abraxas.jpeg" alt="Abraxas" width="60rem"></div>
-        <p> El amor no tiene escapatoria:
-            Luego de los incidentes años anteriores, Abraxas Defazio se convirtió en todo un rompecorazones de Empire
-            King.
-            Pero la llegada de una vieja amiga le dará un fuerte golpe en su ego y orgullo enseñándole que no hay
-            escapatoria para el amor.</p>
-        <div class="libro2"><img src="../img/libro_2_serpens.jpeg" alt="Serpens" width="60rem"></div>
-        <p>Siempre has sido tú:
-            Serpens le había dicho adiós a una parte de su vida que creía no merecer.
-            ¿Pero qué pasa cuando los amores del pasado regresan por todo?
-            Serpens deberá tomar una decisión que cambiará su vida para siempre…</p>
-        <div class="libro3"><img src="../img/libro_3_aries.jpeg" alt="Aries" width="60rem"></div>
-        <p>Una noche más: Aries Defazio tenía un lema y era “solo una noche”.
-            Siempre tuvo su vida bajo control y siempre las cosas salieron a su manera hasta que Lune Moon entró en su
-            vida... y lo cambió todo </p>
-        <div class="libro4"><img src="../img/libro_4_perseo.jpeg" alt="dioses" width="60rem"> </div>
-        <p>Amor de verano: Lo que inicia como una aventura de verano puede transformarse en algo que cambie tu vida para
-            siempre.
-            Perseo Degazio debera aprender a lidiar con sus sentimientos y fantasmas del pasado cuando una persona que
-            conocio en el verano llega a empire king para quedarse.</p>
-        <div class="libro5"><img src="../img/libro_5_orion.jpeg" alt="harry potter" width="60rem"></div>
-        <p>Mi primer amor: El primer amor nunca se olvida. Ya sea por los bellos momentos que pasaron juntos o por la
-            triste y dolorosa ruptura.
-            Orion Defazio descubrira que ademas de su familia hay gente que llegara a su vida para demostrarle que el es
-            una persona que puede amar.</p>
-       <div class="libro6"><img src="../img/libro_6_corvus.jpeg" alt="dioses" width="60rem"> </div>
-        <p>Secreto Oscuro: Corvus debe aprender a defender y cuidar a sus hermanos cuando los incidentes del pasado
-        amenazan con volver.
-        Leah, la hermana de Layla llega con la intención de separar a la familia Defazio y averiguar la
-        verdad sobre lo que pasó en ese incendio</p>
-        <div class="libro0"><img src="../img/phoenix.jpeg" alt="fenix" width="60rem" > </div>
-        <p>Cuando te vuelva a ver:Phoenix siempre tuvo la vida perfecta pero...
-            ¿Que pasaria si su vida no resultara ser tan perfecta como ella creia?
-            Los secretos del pasado salen a la luz poniendola a prueba.</p>
-        </section>
-    </main>
-    <footer>
-        <p>Desarrollado por Shaiel Lucero</p>
-    </footer>
-</body>
+          </nav>
+        </header>
+        <!-- header -->
+        <!-- main -->
+        <main class="initial">
+          <h2 class="title-degree">Mis Libros</h2>
+          <section class="main-info grid">
+            <div class="prologe">
+              <img
+                src="../img/secretos_del_clan_defazio.jpeg"
+                alt="Secretos del Clan Defazio"
+              />
+              <p>
+                El clan Defazio se reúne en la isla de Capri, Italia para intentar
+                superar la muerte de Phoenix Defazio todos juntos. Pero todo lo que
+                comenzó como unas inocentes vacaciones se transforman en una caótica
+                temporada vacacional. Se produce un incendio que provoca la muerte
+                de 2 chicas.
+              </p>
+            </div>
+    
+            <div class="prologe">
+              <img src="../img/libro_1_abraxas.jpeg" alt="Abraxas" />
+              <p>
+                El amor no tiene escapatoria: Luego de los incidentes años
+                anteriores, Abraxas Defazio se convirtió en todo un rompecorazones
+                de Empire King. Pero la llegada de una vieja amiga le dará un fuerte
+                golpe en su ego y orgullo enseñándole que no hay escapatoria para el
+                amor.
+              </p>
+            </div>
+    
+            <div class="prologe">
+              <img src="../img/libro_2_serpens.jpeg" alt="Serpens" />
+              <p>
+                Siempre has sido tú: Serpens le había dicho adiós a una parte de su
+                vida que creía no merecer. ¿Pero qué pasa cuando los amores del
+                pasado regresan por todo? Serpens deberá tomar una decisión que
+                cambiará su vida para siempre…
+              </p>
+            </div>
+    
+            <div class="prologe">
+              <img src="../img/libro_3_aries.jpeg" alt="Aries" />
+              <p>
+                Una noche más: Aries Defazio tenía un lema y era “solo una noche”.
+                Siempre tuvo su vida bajo control y siempre las cosas salieron a su
+                manera hasta que Lune Moon entró en su vida... y lo cambió todo
+              </p>
+            </div>
+    
+            <div class="prologe">
+              <img src="../img/libro_4_perseo.jpeg" alt="dioses" />
+              <p>
+                Amor de verano: Lo que inicia como una aventura de verano puede
+                transformarse en algo que cambie tu vida para siempre. Perseo
+                Degazio debera aprender a lidiar con sus sentimientos y fantasmas
+                del pasado cuando una persona que conocio en el verano llega a
+                empire king para quedarse.
+              </p>
+            </div>
+    
+            <div class="prologe">
+              <img src="../img/libro_5_orion.jpeg" alt="harry potter" />
+              <p>
+                Mi primer amor: El primer amor nunca se olvida. Ya sea por los
+                bellos momentos que pasaron juntos o por la triste y dolorosa
+                ruptura. Orion Defazio descubrira que ademas de su familia hay gente
+                que llegara a su vida para demostrarle que el es una persona que
+                puede amar.
+              </p>
+            </div>
+    
+            <div class="prologe">
+              <img src="../img/libro_6_corvus.jpeg" alt="dioses" />
+              <p>
+                Secreto Oscuro: Corvus debe aprender a defender y cuidar a sus
+                hermanos cuando los incidentes del pasado amenazan con volver. Leah,
+                la hermana de Layla llega con la intención de separar a la familia
+                Defazio y averiguar la verdad sobre lo que pasó en ese incendio
+              </p>
+            </div>
+    
+            <div class="prologe">
+              <img src="../img/phoenix.jpeg" alt="fenix" />
+              <p>
+                Cuando te vuelva a ver:Phoenix siempre tuvo la vida perfecta pero...
+                ¿Que pasaria si su vida no resultara ser tan perfecta como ella
+                creia? Los secretos del pasado salen a la luz poniendola a prueba.
+              </p>
+            </div>
+          </section>
+        </main>
+        <!-- main -->
+        <!-- footer -->
+        <footer class="footer">
+          <p>Desarrollado por Shaiel Lucero</p>
+        </footer>
+        <!-- footer -->
+      </body>
 
 </html>
