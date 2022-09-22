@@ -1,0 +1,85 @@
+@import "partials/header";
+
+$color-fondo:deeppink;
+$fuente: Fantasy;
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 0 auto;
+    background-color: $color-fondo;
+    }
+  
+  .initial {
+    text-align: center;
+    background-image:linear-gradient( pink, mediumpurple);
+  }
+  
+  .initial p {
+    font-size: 15px;
+    font-family:$fuente;
+    margin-bottom: 20px;
+}
+
+  .banner img {
+    height: 100px;
+  }
+  .footer {
+    text-align: center;
+    background-color: palegoldenrod;
+    padding: 20px 0;
+  }
+  .footer p {
+    color: chocolate;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;}
+    .title-degree {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #212149;
+    padding: 30px;
+    background-image: linear-gradient(to left, grey, azure);
+  }
+  
+  .main-info {
+    padding: 12px;
+  }
+  
+  .main-info img {
+    width: 250px;
+  }
+  .grid {
+    display: grid;
+    padding: 10px;
+    justify-content: center;
+    gap: 2rem;
+    row-gap: 2rem;
+  
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+  .curiosity img {
+    width: 250px;
+  }
+  
+  .img-rounded {
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .contact-form {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .contact-form {
+      text-align: center;
+      background-color: lightpink;
+      width: 200px;
+      height: 300px;
+      margin-top: 20px;
+  }
